@@ -8,12 +8,10 @@ defineProps({
 </script>
 
 <template>
-  <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
-    <h3>
-      
-    </h3>
-  </div>
+  <nav class="navbar navbar-dark sticky-top bg-primary px-5">
+  <!-- Navbar content -->
+  <span class="navbar-brand" href="#">{{ msg }}</span>
+</nav>
 </template>
 
 <style scoped>
